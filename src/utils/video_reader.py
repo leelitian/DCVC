@@ -16,8 +16,13 @@ class PNGReader():
         pngs = os.listdir(self.src_path)
         if 'im1.png' in pngs:
             self.padding = 1
+            self.prefix = 'im'
         elif 'im00001.png' in pngs:
             self.padding = 5
+            self.prefix = 'im'
+        elif 'f001.png' in pngs:
+            self.padding = 3
+            self.prefix = 'f'
         else:
             raise ValueError('unknown image naming convention; please specify')
         self.current_frame_index = start_num
@@ -28,7 +33,7 @@ class PNGReader():
             return None
 
         png_path = os.path.join(self.src_path,
-                                f"im{str(self.current_frame_index).zfill(self.padding)}.png"
+                                f"{self.prefix}{str(self.current_frame_index).zfill(self.padding)}.png"
                                 )
         if not os.path.exists(png_path):
             self.eof = True

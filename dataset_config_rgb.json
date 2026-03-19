@@ -1,0 +1,63 @@
+{
+    "root_path": "/home/lilitian/dataset/test_datasets/",
+    "test_classes": {
+        "HEVC_B": {
+            "test": 1,
+            "base_path": "HEVC/HEVC_B_png",
+            "src_type": "png",
+            "sequences": {
+                "BasketballDrive_1920x1080_50fps_8bit_P420": {"width": 1920, "height": 1080, "frames": 500, "intra_period": -1},
+                "BQTerrace_1920x1080_60fps_8bit_P420":       {"width": 1920, "height": 1080, "frames": 600, "intra_period": -1},
+                "Cactus_1920x1080_50fps_8bit_P420":          {"width": 1920, "height": 1080, "frames": 500, "intra_period": -1},
+                "Kimono_1920x1080_24fps_8bit_P420":          {"width": 1920, "height": 1080, "frames": 240, "intra_period": -1},
+                "ParkScene_1920x1080_24fps_8bit_P420":       {"width": 1920, "height": 1080, "frames": 240, "intra_period": -1}
+            }
+        },
+        "HEVC_C": {
+            "test": 1,
+            "base_path": "HEVC_C/png_original",
+            "src_type": "png",
+            "sequences": {
+                "BasketballDrill_832x480_50":   {"width": 832, "height": 480, "frames": 500, "intra_period": -1},
+                "BQMall_832x480_60":            {"width": 832, "height": 480, "frames": 600, "intra_period": -1},
+                "PartyScene_832x480_50":        {"width": 832, "height": 480, "frames": 500, "intra_period": -1},
+                "RaceHorses_832x480_30":        {"width": 832, "height": 480, "frames": 300, "intra_period": -1}
+            }
+        },
+        "HEVC_D": {
+            "test": 1,
+            "base_path": "HEVC_D/png_original",
+            "src_type": "png",
+            "sequences": {
+		        "BasketballPass_416x240_50":    {"width": 416, "height": 240, "frames": 500, "intra_period": -1},
+                "BlowingBubbles_416x240_50":    {"width": 416, "height": 240, "frames": 500, "intra_period": -1},
+                "BQSquare_416x240_60":          {"width": 416, "height": 240, "frames": 600, "intra_period": -1},
+                "RaceHorses_416x240_30":        {"width": 416, "height": 240, "frames": 300, "intra_period": -1}
+            }
+        },
+        "HEVC_E": {
+            "test": 1,
+            "base_path": "HEVC_E/png_original",
+            "src_type": "png",
+            "sequences": {
+                "FourPeople_1280x720_60":       {"width": 1280, "height": 720, "frames": 500, "intra_period": -1},
+                "Johnny_1280x720_60":           {"width": 1280, "height": 720, "frames": 500, "intra_period": -1},
+                "KristenAndSara_1280x720_60":   {"width": 1280, "height": 720, "frames": 600, "intra_period": -1}
+            }
+        },
+        "UVG": {
+            "test": 1,
+            "base_path": "UVG/png_original",
+            "src_type": "png",
+            "sequences": {
+                "Beauty_1920x1080_120fps_420_8bit_YUV":          {"width": 1920, "height": 1080, "frames": 600, "intra_period": -1},
+                "Bosphorus_1920x1080_120fps_420_8bit_YUV":       {"width": 1920, "height": 1080, "frames": 600, "intra_period": -1},
+                "HoneyBee_1920x1080_120fps_420_8bit_YUV":        {"width": 1920, "height": 1080, "frames": 600, "intra_period": -1},
+                "Jockey_1920x1080_120fps_420_8bit_YUV":          {"width": 1920, "height": 1080, "frames": 600, "intra_period": -1},
+                "ReadySteadyGo_1920x1080_120fps_420_8bit_YUV":   {"width": 1920, "height": 1080, "frames": 600, "intra_period": -1},
+                "ShakeNDry_1920x1080_120fps_420_8bit_YUV":       {"width": 1920, "height": 1080, "frames": 300, "intra_period": -1},
+                "YachtRide_1920x1080_120fps_420_8bit_YUV":       {"width": 1920, "height": 1080, "frames": 600, "intra_period": -1}
+            }
+        }
+    }
+}
